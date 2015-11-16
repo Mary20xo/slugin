@@ -1,0 +1,144 @@
+rastorgueva_tatjana@Lab155-160:~$ $(date)
+Пн.: команда не найдена
+rastorgueva_tatjana@Lab155-160:~$ date
+Пн. окт. 19 12:43:53 MSK 2015
+rastorgueva_tatjana@Lab155-160:~$ date +%Y-%m-%d
+2015-10-19
+rastorgueva_tatjana@Lab155-160:~$ mkdir BASE_1C
+rastorgueva_tatjana@Lab155-160:~$ echo "My Database" >BASE_1C/myfile
+rastorgueva_tatjana@Lab155-160:~$ nano script3.sh
+rastorgueva_tatjana@Lab155-160:~$ Входной файл для резервирования=
+Входной: команда не найдена
+rastorgueva_tatjana@Lab155-160:~$ nano script3.sh
+rastorgueva_tatjana@Lab155-160:~$ Входной файл для резервирования=
+Входной: команда не найдена
+rastorgueva_tatjana@Lab155-160:~$ nano script3.sh
+rastorgueva_tatjana@Lab155-160:~$ chmod +x ./backup_3.sh
+chmod: невозможно получить доступ к «./backup_3.sh»: Нет такого файла или каталога
+rastorgueva_tatjana@Lab155-160:~$ ./backup_3.sh BASE_1C
+bash: ./backup_3.sh: Нет такого файла или каталога
+rastorgueva_tatjana@Lab155-160:~$ .backup_3.sh
+.backup_3.sh: команда не найдена
+rastorgueva_tatjana@Lab155-160:~$ chmod +x ./script_3.sh
+chmod: невозможно получить доступ к «./script_3.sh»: Нет такого файла или каталога
+rastorgueva_tatjana@Lab155-160:~$ ./backup.sh BASE_1C
+bash: ./backup.sh: Нет такого файла или каталога
+rastorgueva_tatjana@Lab155-160:~$ chmod +x ./script_3.sh
+chmod: невозможно получить доступ к «./script_3.sh»: Нет такого файла или каталога
+rastorgueva_tatjana@Lab155-160:~$ chmod +x ./script3.sh
+rastorgueva_tatjana@Lab155-160:~$ ./script3.sh BASE_1C
+Входной файл для резервирования=BASE_1C
+rastorgueva_tatjana@Lab155-160:~$ ./script3.sh BASE_1C
+Входной файл для резервирования=BASE_1C
+rastorgueva_tatjana@Lab155-160:~$ ./script3.sh BASE_1C
+Входной файл для резервирования=BASE_1C
+rastorgueva_tatjana@Lab155-160:~$ ./script3.sh BASE_1C
+Входной файл для резервирования=BASE_1C
+rastorgueva_tatjana@Lab155-160:~$ ./script3.sh
+Попробуйте запустить скрипт так:./script3.sh каталог_для_копирования
+rastorgueva_tatjana@Lab155-160:~$ nano script3.sh
+rastorgueva_tatjana@Lab155-160:~$ tar -czpf BASE_1C.tar.gz BASE_1C
+rastorgueva_tatjana@Lab155-160:~$ -ls
+Команда '-ls' не найдена, возможно вы имели в виду:
+ Команда 'i-ls' из пакета 'integrit' (universe)
+ Команда 'hls' из пакета 'hfsutils' (main)
+ Команда 'ols' из пакета 'speech-tools' (universe)
+ Команда 'als' из пакета 'atool' (universe)
+ Команда 'ils' из пакета 'sleuthkit' (universe)
+ Команда 'ls' из пакета 'coreutils' (main)
+ Команда 'jls' из пакета 'sleuthkit' (universe)
+ Команда 'fls' из пакета 'sleuthkit' (universe)
+ Команда 'bls' из пакета 'bacula-sd' (main)
+ Команда 'tls' из пакета 'python-tlslite' (universe)
+-ls: команда не найдена
+rastorgueva_tatjana@Lab155-160:~$ -ls *tar.gz
+Команда '-ls' не найдена, возможно вы имели в виду:
+ Команда 'ils' из пакета 'sleuthkit' (universe)
+ Команда 'jls' из пакета 'sleuthkit' (universe)
+ Команда 'ls' из пакета 'coreutils' (main)
+ Команда 'fls' из пакета 'sleuthkit' (universe)
+ Команда 'tls' из пакета 'python-tlslite' (universe)
+ Команда 'als' из пакета 'atool' (universe)
+ Команда 'bls' из пакета 'bacula-sd' (main)
+ Команда 'ols' из пакета 'speech-tools' (universe)
+ Команда 'hls' из пакета 'hfsutils' (main)
+ Команда 'i-ls' из пакета 'integrit' (universe)
+-ls: команда не найдена
+rastorgueva_tatjana@Lab155-160:~$ -ls*tar.gz
+-ls*tar.gz: команда не найдена
+rastorgueva_tatjana@Lab155-160:~$ ls *.tar.gz
+BASE_1C.tar.gz
+rastorgueva_tatjana@Lab155-160:~$ date +%Y-%m-%d
+2015-10-19
+rastorgueva_tatjana@Lab155-160:~$ tar -czpf $(date +%Y-%m-%d)-BASE_1C.tar.gz BASE_1C
+rastorgueva_tatjana@Lab155-160:~$ 
+rastorgueva_tatjana@Lab155-160:~$ 
+rastorgueva_tatjana@Lab155-160:~$ 
+rastorgueva_tatjana@Lab155-160:~$ ls
+2015-10-19-BASE_1C.tar.gz  BASE_1C  BASE_1C.tar.gz  script3.sh  Документы  Загрузки  Рабочий стол
+rastorgueva_tatjana@Lab155-160:~$ tar -czpf $(date +%Y-%m-%d)-BASE_1C.tar.gz BASE_1C
+rastorgueva_tatjana@Lab155-160:~$ 
+rastorgueva_tatjana@Lab155-160:~$ 
+rastorgueva_tatjana@Lab155-160:~$ 
+rastorgueva_tatjana@Lab155-160:~$ tar -czpf $(date +%Y-%m-%d)-BASE_1C.tar.gz BASE_1C
+rastorgueva_tatjana@Lab155-160:~$ ls *.tar.gz
+2015-10-19-BASE_1C.tar.gz  BASE_1C.tar.gz
+rastorgueva_tatjana@Lab155-160:~$ nano script3.sh
+rastorgueva_tatjana@Lab155-160:~$ nano script3.sh
+rastorgueva_tatjana@Lab155-160:~$ ./script3.sh BASE_1C
+Входной файл для резервирования=BASE_1C
+rastorgueva_tatjana@Lab155-160:~$ ls
+2015-10-19-aaaaaaaBASE_1C.tar.gz  2015-10-19-BASE_1C.tar.gz  BASE_1C  BASE_1C.tar.gz  script3.sh  Документы  Загрузки  Рабочий стол
+rastorgueva_tatjana@Lab155-160:~$ nano script3.sh
+rastorgueva_tatjana@Lab155-160:~$ ./script3.sh BASE_1C
+Входной файл для резервирования=BASE_1C
+rastorgueva_tatjana@Lab155-160:~$ ls
+2015-10-19-aaaaaaaBASE_1C.tar.gz  2015-10-19-BASE_1C.tar.gz  2015-10-19-jjjjjjjjjjjj.tar.gz  BASE_1C  BASE_1C.tar.gz  script3.sh  Документы  Загрузки  Рабочий стол
+rastorgueva_tatjana@Lab155-160:~$ nano script3.sh
+rastorgueva_tatjana@Lab155-160:~$ ls *.gz
+2015-10-19-aaaaaaaBASE_1C.tar.gz  2015-10-19-BASE_1C.tar.gz  2015-10-19-jjjjjjjjjjjj.tar.gz  BASE_1C.tar.gz
+rastorgueva_tatjana@Lab155-160:~$ 
+rastorgueva_tatjana@Lab155-160:~$ 
+rastorgueva_tatjana@Lab155-160:~$ 
+rastorgueva_tatjana@Lab155-160:~$ 
+rastorgueva_tatjana@Lab155-160:~$ cp 2015-10-19-BASE_1C 2015-09-01-BASE_1C.tar.gz
+cp: не удалось выполнить stat для «2015-10-19-BASE_1C»: Нет такого файла или каталога
+rastorgueva_tatjana@Lab155-160:~$ nano test.sh
+rastorgueva_tatjana@Lab155-160:~$ ./test.sh
+bash: ./test.sh: Отказано в доступе
+rastorgueva_tatjana@Lab155-160:~$ ls *.gz
+2015-10-19-aaaaaaaBASE_1C.tar.gz  2015-10-19-BASE_1C.tar.gz  2015-10-19-jjjjjjjjjjjj.tar.gz  BASE_1C.tar.gz
+rastorgueva_tatjana@Lab155-160:~$ ./test.sh
+bash: ./test.sh: Отказано в доступе
+rastorgueva_tatjana@Lab155-160:~$ chmod +x test.sh 
+rastorgueva_tatjana@Lab155-160:~$ ./test.sh
+./test.sh: строка 2: ошибка синтаксиса около неожиданной лексемы `do'
+./test.sh: строка 2: `do'
+rastorgueva_tatjana@Lab155-160:~$ nano test.sh
+rastorgueva_tatjana@Lab155-160:~$ ./test.sh
+cp: «2015-10-19-BASE_1C.tar.gz» и «2015-10-19-BASE_1C.tar.gz» - один и тот же файл
+rastorgueva_tatjana@Lab155-160:~$ ls *.gz
+2015-01-01-BASE_1C.tar.gz  2015-03-05-BASE_1C.tar.gz  2015-05-09-BASE_1C.tar.gz  2015-08-04-BASE_1C.tar.gz  2015-10-17-BASE_1C.tar.gz         2015-11-15-BASE_1C.tar.gz  2015-12-15-BASE_1C.tar.gz
+2015-01-02-BASE_1C.tar.gz  2015-03-06-BASE_1C.tar.gz  2015-06-01-BASE_1C.tar.gz  2015-08-05-BASE_1C.tar.gz  2015-10-18-BASE_1C.tar.gz         2015-11-16-BASE_1C.tar.gz  2015-12-16-BASE_1C.tar.gz
+2015-01-03-BASE_1C.tar.gz  2015-03-07-BASE_1C.tar.gz  2015-06-02-BASE_1C.tar.gz  2015-08-06-BASE_1C.tar.gz  2015-10-19-aaaaaaaBASE_1C.tar.gz  2015-11-17-BASE_1C.tar.gz  2015-12-17-BASE_1C.tar.gz
+2015-01-04-BASE_1C.tar.gz  2015-03-08-BASE_1C.tar.gz  2015-06-03-BASE_1C.tar.gz  2015-08-07-BASE_1C.tar.gz  2015-10-19-BASE_1C.tar.gz         2015-11-18-BASE_1C.tar.gz  2015-12-18-BASE_1C.tar.gz
+2015-01-05-BASE_1C.tar.gz  2015-03-09-BASE_1C.tar.gz  2015-06-04-BASE_1C.tar.gz  2015-08-08-BASE_1C.tar.gz  2015-10-19-jjjjjjjjjjjj.tar.gz    2015-11-19-BASE_1C.tar.gz  2015-12-19-BASE_1C.tar.gz
+2015-01-06-BASE_1C.tar.gz  2015-04-01-BASE_1C.tar.gz  2015-06-05-BASE_1C.tar.gz  2015-08-09-BASE_1C.tar.gz  2015-10-20-BASE_1C.tar.gz         2015-11-20-BASE_1C.tar.gz  2015-12-20-BASE_1C.tar.gz
+2015-01-07-BASE_1C.tar.gz  2015-04-02-BASE_1C.tar.gz  2015-06-06-BASE_1C.tar.gz  2015-09-01-BASE_1C.tar.gz  2015-10-21-BASE_1C.tar.gz         2015-11-21-BASE_1C.tar.gz  2015-12-21-BASE_1C.tar.gz
+2015-01-08-BASE_1C.tar.gz  2015-04-03-BASE_1C.tar.gz  2015-06-07-BASE_1C.tar.gz  2015-09-02-BASE_1C.tar.gz  2015-10-22-BASE_1C.tar.gz         2015-11-22-BASE_1C.tar.gz  2015-12-22-BASE_1C.tar.gz
+2015-01-09-BASE_1C.tar.gz  2015-04-04-BASE_1C.tar.gz  2015-06-08-BASE_1C.tar.gz  2015-09-03-BASE_1C.tar.gz  2015-10-23-BASE_1C.tar.gz         2015-11-23-BASE_1C.tar.gz  2015-12-23-BASE_1C.tar.gz
+2015-02-01-BASE_1C.tar.gz  2015-04-05-BASE_1C.tar.gz  2015-06-09-BASE_1C.tar.gz  2015-09-04-BASE_1C.tar.gz  2015-10-24-BASE_1C.tar.gz         2015-11-24-BASE_1C.tar.gz  2015-12-24-BASE_1C.tar.gz
+2015-02-02-BASE_1C.tar.gz  2015-04-06-BASE_1C.tar.gz  2015-07-01-BASE_1C.tar.gz  2015-09-05-BASE_1C.tar.gz  2015-10-25-BASE_1C.tar.gz         2015-11-25-BASE_1C.tar.gz  2015-12-25-BASE_1C.tar.gz
+2015-02-03-BASE_1C.tar.gz  2015-04-07-BASE_1C.tar.gz  2015-07-02-BASE_1C.tar.gz  2015-09-06-BASE_1C.tar.gz  2015-10-26-BASE_1C.tar.gz         2015-11-26-BASE_1C.tar.gz  2015-12-26-BASE_1C.tar.gz
+2015-02-04-BASE_1C.tar.gz  2015-04-08-BASE_1C.tar.gz  2015-07-03-BASE_1C.tar.gz  2015-09-07-BASE_1C.tar.gz  2015-10-27-BASE_1C.tar.gz         2015-11-27-BASE_1C.tar.gz  2015-12-27-BASE_1C.tar.gz
+2015-02-05-BASE_1C.tar.gz  2015-04-09-BASE_1C.tar.gz  2015-07-04-BASE_1C.tar.gz  2015-09-08-BASE_1C.tar.gz  2015-10-28-BASE_1C.tar.gz         2015-11-28-BASE_1C.tar.gz  2015-12-28-BASE_1C.tar.gz
+2015-02-06-BASE_1C.tar.gz  2015-05-01-BASE_1C.tar.gz  2015-07-05-BASE_1C.tar.gz  2015-09-09-BASE_1C.tar.gz  2015-10-29-BASE_1C.tar.gz         2015-11-29-BASE_1C.tar.gz  2015-12-29-BASE_1C.tar.gz
+2015-02-07-BASE_1C.tar.gz  2015-05-02-BASE_1C.tar.gz  2015-07-06-BASE_1C.tar.gz  2015-10-10-BASE_1C.tar.gz  2015-10-30-BASE_1C.tar.gz         2015-11-30-BASE_1C.tar.gz  2015-12-30-BASE_1C.tar.gz
+2015-02-08-BASE_1C.tar.gz  2015-05-03-BASE_1C.tar.gz  2015-07-07-BASE_1C.tar.gz  2015-10-11-BASE_1C.tar.gz  2015-10-31-BASE_1C.tar.gz         2015-11-31-BASE_1C.tar.gz  2015-12-31-BASE_1C.tar.gz
+2015-02-09-BASE_1C.tar.gz  2015-05-04-BASE_1C.tar.gz  2015-07-08-BASE_1C.tar.gz  2015-10-12-BASE_1C.tar.gz  2015-11-10-BASE_1C.tar.gz         2015-12-10-BASE_1C.tar.gz  BASE_1C.tar.gz
+2015-03-01-BASE_1C.tar.gz  2015-05-05-BASE_1C.tar.gz  2015-07-09-BASE_1C.tar.gz  2015-10-13-BASE_1C.tar.gz  2015-11-11-BASE_1C.tar.gz         2015-12-11-BASE_1C.tar.gz
+2015-03-02-BASE_1C.tar.gz  2015-05-06-BASE_1C.tar.gz  2015-08-01-BASE_1C.tar.gz  2015-10-14-BASE_1C.tar.gz  2015-11-12-BASE_1C.tar.gz         2015-12-12-BASE_1C.tar.gz
+2015-03-03-BASE_1C.tar.gz  2015-05-07-BASE_1C.tar.gz  2015-08-02-BASE_1C.tar.gz  2015-10-15-BASE_1C.tar.gz  2015-11-13-BASE_1C.tar.gz         2015-12-13-BASE_1C.tar.gz
+2015-03-04-BASE_1C.tar.gz  2015-05-08-BASE_1C.tar.gz  2015-08-03-BASE_1C.tar.gz  2015-10-16-BASE_1C.tar.gz  2015-11-14-BASE_1C.tar.gz         2015-12-14-BASE_1C.tar.gz
+rastorgueva_tatjana@Lab155-160:~$ 
+
